@@ -4,37 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-comerce</title>
-    <link rel="stylesheet" href="./assets/favicon.png" />
+    <title>Academlo Store</title> 
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./src/styles.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet" />
   </head>
   <body>
-    
-    <div class="change"><img src="./assets/favicon.png" alt="Logo" /></div>
 
-    <div class="container" id="container">
-      <ul class="menu">
-        <li class="first_menu">
-          <a href="#STORE" class="first_home">STORE</a>
-          <a href="#Home" class="first_home">Home</a>
-          <a href="#Products" class="first_home">Products</a>
-        </li>
-      </ul>
+   
+    <div class="navbar" id="navbar">
+        <div class="change"><img src="./assets/favicon.png" alt="Logo" /></div>
+      
+        <ul class="menu">
+        <li class="first_menu"><a href="#STORE"class="first_home">STORE</a></li>
 
-      <div class="buttom" id="buttom">
-        <i class="bx bx-moon bx-tada" style="color: #040404"></i>
-      </div>
-      <div class="car" id="car">
-        <i class="bx bx-shopping-bag bx-tada bx-rotate-180"></i>
-      </div>
-    </div>
-    <section class="new_home" id="new_home">
-        <div class="new_tshirt">
-            <img src="./assets/home.png" alt="img_tshirt">
+        <li><a href="#Home" class="first_home">Home</a></li>
+
+        <li><a href="#Products" class="first_home">Products</a> </li>
+        </ul>
+
+        <div class="buttom" id="buttom">
+            <i class="bx bx-moon bx-tada" style="color: #040404"></i>
+        <div class="car" id="car">
+            <i class="bx bx-shopping-bag bx-tada bx-rotate-180"></i>
         </div>
+        </div>
+    </div>
+
+
+    <section class="new_home" id="new_home">
+        <div class="new__tshirt tshirt grid">
+
+        <div class="new_picture">
+        <img src="./assets/home.png" alt="img_tshirt">
+        </div>
+
     <div class="new_event">
       <h1 class="event_title">New Sweatshirt <br />COLLECTIONS 2022</h1>
 
@@ -49,6 +55,9 @@
         <a href="#" class="event_buttom">Discover</a>
 
         <button class="buttom_add">ADD TO CART</button>
+    </div>
+    </div>
+    </div>
     </section>
     <section class="carousel" id="carousel">
         <div class="carousel_all_products">
